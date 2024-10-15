@@ -14,13 +14,11 @@ export class ByCapitalPageComponent {
 
   constructor(private countriesService: CountriesService) { }
 
-  searchBycapital(term: string): void {
+  searchByCapital(term: string): void {
     this.countriesService.searchCapital(term).subscribe((respCountries) => {
       this.countries = respCountries
-      console.log(respCountries);
-      
+     // console.log(respCountries);
     });
-
   }
 
 }
