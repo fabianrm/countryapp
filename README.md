@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 Usa la Api : https://restcountries.com/
-Se pone en práctica conocimientos d:
+Se pone en práctica conocimientos de:
 * uso de paso de datos entre componentes mediante @Input() y @Output().
 * uso de servicios.
 * uso de modulos.
