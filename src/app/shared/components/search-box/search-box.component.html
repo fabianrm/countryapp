@@ -1,7 +1,21 @@
-<input
-  type="text"
-  [placeholder]="placeholder"
-  class="form-control"
-  #txtSearch
-  (keyup.enter)="emitValue(txtSearch.value)"
-/>
+  <div class="row align-items-center">
+    <div class="col-12 col-md-10">
+      <input
+        type="text"
+        [placeholder]="placeholder"
+        class="form-control"
+        #txtSearch
+        (keyup.enter)="emitValue(txtSearch.value)"
+      />
+    </div>
+
+    <div class="col-12 col-md-2 mt-1">
+      <button
+        class="btn btn-primary w-100"
+        type="button"
+        (click)="emitValue(txtSearch.value)"
+      >
+        Enviar
+      </button>
+    </div>
+  </div>
