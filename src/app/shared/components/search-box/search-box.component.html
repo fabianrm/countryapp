@@ -3,6 +3,7 @@
       <input
         type="text"
         [placeholder]="placeholder"
+        [value]="initialValue"
         class="form-control"
         #txtSearch
         (keyup.enter)="emitValue(txtSearch.value)"
